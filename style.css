@@ -2034,7 +2034,7 @@ header {
   }
   .first-foot{
     text-align: center;
-    width: 70%;
+    width: 90%;
      display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2048,6 +2048,7 @@ header {
   }
   .last-foot{
     width: 95%;
+    margin: auto;
   }
   .last-foot .foot-span{
     width: 45%;
