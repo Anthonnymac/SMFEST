@@ -1123,7 +1123,7 @@ header {
 /* connect resposiveness */
 @media screen and (min-width: 1025px) {
   .connect-div{
-    height: 80vh;
+    height: 100vh;
   }
   .connect-image{
     height: 100%;
@@ -1138,19 +1138,32 @@ header {
     padding: 15px;
     margin-bottom: 100px;
   }
-  .connect-image, .connect-innovate{
+  .connect-image{
     width: 100%;
     height: 100vh;
   }
+  .connect-innovate{
+    height: 80vh;
+    width: 100%;
+  }
+  .ratings{
+    border-radius: 10px;
+}
 }
 @media screen and (max-width: 900px) {
   .connect-div{
     width: 90%;
   }
+  .connect-innovate{
+    height: 80vh;
+  }
 }
 @media screen and (max-width: 800px) {
   .connect-div{
     width: 90%;
+  }
+  .connect-innovate{
+    height: 80vh;
   }
 }
 @media screen and (max-width: 767px) {
