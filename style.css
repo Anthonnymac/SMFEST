@@ -1142,7 +1142,7 @@ header {
 }
 @media screen and (max-width: 900px) {
   .connect-div{
-    width: 88%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -1151,6 +1151,9 @@ header {
   }
 }
 @media screen and (max-width: 767px) {
+  .connect-div{
+    height: fit-content;
+  }
   .connect-image{
     display: none;
   }
@@ -1162,6 +1165,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
   }
    .connect-div{
     width: 95%;
