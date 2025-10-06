@@ -1815,6 +1815,9 @@ header {
   }
 }
 @media screen and (max-width: 425px) {
+  .upcoming-low{
+    height: 80%;
+  }
   .upcoming h3{
     font-size: 20px;
   }
