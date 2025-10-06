@@ -382,9 +382,6 @@ header {
   .hero-con {
     width: 80%;
   }
-  .ticket,
-  .sponsor-two {
-  }
   .hero-section {
     height: 80vh;
   }
@@ -1819,10 +1816,13 @@ header {
 }
 @media screen and (max-width: 425px) {
   .upcoming h3{
-    font-size: 25px;
+    font-size: 20px;
   }
   .upcoming .attend h3{
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .attend p{
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 400px) {
