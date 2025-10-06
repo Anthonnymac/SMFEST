@@ -117,6 +117,12 @@ header {
 
 /* header media query */
 
+@media screen and (min-width: 1150px) {
+  .ham{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1150px) {
   .logo {
     width: 80px;
