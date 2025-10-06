@@ -1155,7 +1155,7 @@ header {
 }
 @media screen and (max-width: 767px) {
   .connect-div{
-    height: fit-content;
+    height: 100vh;
   }
   .connect-image{
     display: none;
@@ -1168,7 +1168,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
   }
    .connect-div{
     width: 95%;
@@ -1816,7 +1816,7 @@ header {
 }
 @media screen and (max-width: 425px) {
   .upcoming-low{
-    height: 80%;
+    height: 85%;
   }
   .upcoming h3{
     font-size: 20px;
