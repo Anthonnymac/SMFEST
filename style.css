@@ -1938,9 +1938,8 @@ header {
     display: none;
   }
   .caroimg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
     gap: 20px;
     width: 95%;
   }
