@@ -1242,6 +1242,9 @@ header {
     height: 100%;
     width: 100%;
   }
+  .connect{
+    font-size: 18px;
+  }
 }
 
 
