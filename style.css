@@ -1933,7 +1933,10 @@ header {
 
 /* carrousel image section media query */
 
-@media screen and (max-width: ) {
+@media screen and (max-width: 767px) {
+  .caro-m{
+    display: none;
+  }
 }
 @media screen and (max-width: ) {
 }
