@@ -284,7 +284,7 @@ header {
 .ticket,
 .sponsor-two {
   width: 50%;
-  height: 50px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -350,6 +350,12 @@ header {
 }
 
 /* hero section media query */
+
+@media screen and (max-width: 1201px) {
+  .hero-section{
+    height: 100vh;
+  }
+}
 @media screen and (max-width: 1200px) {
   .ticket,
   .sponsor-two {
@@ -360,7 +366,7 @@ header {
   }
 
   .hero-section {
-    height: 80vh;
+    height: 90vh;
   }
 }
 @media screen and (max-width: 950px) {
@@ -1817,6 +1823,11 @@ header {
 
 /* upcoming section media query */
 
+@media screen and (max-width: 1025px) {
+  .upcoming{
+    height: 85vh;
+  }
+}
 @media screen and (max-width: 1024px) {
   .upcoming-low{
     display: flex;
