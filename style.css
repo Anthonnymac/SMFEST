@@ -317,7 +317,7 @@ header {
   background-color: #08003c;
   padding: 1.5rem 0;
   position: absolute;
-  bottom: 0; /* fix: place at bottom of hero section */
+  bottom: 8%; /* fix: place at bottom of hero section */
   z-index: 2;
 }
 
@@ -483,9 +483,6 @@ header {
 @media screen and (max-width: 400px) {
   .tick-div {
     font-size: 16px;
-  }
-  .hero-section {
-    height: ;
   }
 }
 
