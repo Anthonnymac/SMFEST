@@ -226,7 +226,7 @@ header {
 
 /* Hero Section */
 .hero-section {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -255,7 +255,7 @@ header {
 .hero-con {
   width: 90%;
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -284,7 +284,7 @@ header {
 .ticket,
 .sponsor-two {
   width: 50%;
-  height: 75px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,7 +298,7 @@ header {
 }
 
 .ticket:hover {
-  background-color: #e6a700;
+  background-color:#d0148c;
 }
 
 .sponsor-two {
@@ -306,7 +306,7 @@ header {
 }
 
 .sponsor-two:hover {
-  background-color: #b31278;
+  background-color:#e6a700;
 }
 
 /* Marquee Section */
@@ -366,7 +366,7 @@ header {
   }
 
   .hero-section {
-    height: 90vh;
+    height: 100vh;
   }
 }
 @media screen and (max-width: 950px) {
@@ -1273,7 +1273,7 @@ header {
 }
 
 .top-left {
-  background-image: url(images/DSC_7015-scaled.webp);
+  /* background-image: url(images/DSC_7015-scaled.webp); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1281,10 +1281,17 @@ header {
   width: 30%;
   box-shadow: 10px 10px #37e3af;
   height: 450px;
+  animation: top-l 10s infinite;
+}
+
+@keyframes top-l {
+  0%{background-image: url(images/DSC_7015-scaled.webp);}
+  33%{background-image: url(images/DSC_6019-scaled.webp);}
+  66%{background-image: url(images/DSC_6307-scaled.webp);}
+  100%{background-image: url(images/DSC_7015-scaled.webp);}
 }
 
 .top-right {
-  background-image: url(images/DSC_7119-scaled.webp);
   box-shadow: 10px 10px #ee2f5b;
   background-position: center;
   background-repeat: no-repeat;
@@ -1292,6 +1299,14 @@ header {
   width: 70%;
   border-radius: 10px;
   height: 450px;
+  animation: top-r 12s infinite;
+}
+
+@keyframes top-r {
+  0%{background-image: url(images/DSC_7119-scaled.webp);}
+  33%{background-image: url(images/DSC_6862-scaled.webp);}
+  66%{background-image: url(images/DSC_7620-scaled.webp);}
+  100%{background-image: url(images/DSC_7119-scaled.webp);}
 }
 
 .stage-bottom {
@@ -1301,7 +1316,6 @@ header {
 }
 
 .bottom-left {
-  background-image: url(images/DSC_8486-scaled.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1309,10 +1323,17 @@ header {
   height: 450px;
   border-radius: 10px;
   width: 55%;
+  animation: bottom-l 15s infinite;
+}
+
+@keyframes bottom-l {
+  0%{background-image: url(images/DSC_8486-scaled.webp);}
+  33%{background-image: url(images/DSC_8368.webp);}
+  66%{background-image: url(images/DSC_7288-scaled.webp);}
+  100%{background-image: url(images/DSC_8486-scaled.webp);}
 }
 
 .bottom-right {
-  background-image: url(images/DSC_8368.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1320,6 +1341,14 @@ header {
   box-shadow: 10px 10px #37e3af;
   border-radius: 10px;
   width: 45%;
+  animation: bottom-r 10s infinite;
+}
+
+@keyframes bottom-r {
+  0%{background-image: url(images/DSC_8368.webp);}
+  33%{background-image: url(images/DSC_7288-scaled.webp);}
+  66%{background-image: url(images/DSC_8368.webp);}
+  100%{background-image: url(images/DSC_8368.webp);}
 }
 
 /* stage div respondiveness */
